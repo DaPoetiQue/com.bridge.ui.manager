@@ -6,8 +6,7 @@
     "unity": "2019.1",
     "unityRelease": "0b5",
     "dependencies": {
-      "com.bridge.debugger": "https://github.com/DaPoetiQue/com.bridge.debugger.git",
-      "com.bridge.events.manager": "https://github.com/DaPoetiQue/com.bridge.events.manager.git"
+      "com.bridge.debugger": "git@github.com:DaPoetiQue/com.bridge.debugger.git"
 
    },
    "keywords": [
