@@ -1,13 +1,13 @@
 using UnityEditor;
 
-namespace Bridge.Core.UI.Manager
+namespace Bridge.Core.UI.Manager.Editor
 {
     public class UIManagerEditor : UnityEditor.Editor
     {
-        [MenuItem("Bridge/Create/UI Manager")]
+        [MenuItem("3ridge/Create/UI Manager")]
         private static void CreateUIManager()
         {
-            var uiManager = new UnityEngine.GameObject("_UI Manager");
+            var uiManager = new UnityEngine.GameObject("_3ridge UI Manager");
             uiManager.AddComponent<UIManager>();
 
             if(Selection.activeGameObject != null) uiManager.transform.SetParent(Selection.activeGameObject.transform);

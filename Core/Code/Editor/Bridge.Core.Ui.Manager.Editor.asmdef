@@ -1,0 +1,21 @@
+{
+    "name": "Bridge.Core.Ui.Manager.Editor",
+    "rootNamespace": "Bridge.Core.Ui.Manager.Editor",
+    "references": [
+        "GUID:3eb7026f29781354d9b2af419d49c99b",
+        "GUID:5ef81270e65190e4babbe8d8e6e466c5"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "macOSStandalone",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
