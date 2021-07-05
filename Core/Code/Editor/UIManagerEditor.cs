@@ -15,7 +15,7 @@ namespace Bridge.Core.UI.Manager.Editor
             UnityEngine.Debug.Log("<color=white>-->></color> <color=green> Success </color>:<color=white> A UI manager has been created successfully.</color>");
         }
 
-        [MenuItem("Bridge/Create/UI Manager", true)]
+        [MenuItem("3ridge/Create/UI Manager", true)]
         private static bool CanCreateUIManager()
         {
             return FindObjectOfType<UIManager>() == null;
